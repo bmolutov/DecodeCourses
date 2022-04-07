@@ -1,0 +1,49 @@
+Ban, unban, getting chat info 
+
+
+ban / unban
+    bot.ban_chat_member(chat_id, user_id) # ban the user
+    bot.unban_chat_member(chat_id, user_id) # unban the user
+
+    bot.ban_chat_sender_chat(chat_id, user_id) # also banning
+    bot.unban_chat_sender_chat(chat_id, user_id) # also unbanning
+
+
+rights that can be disabled:
+    can_send_messages – ability to send messages
+    can_send_media_messages – ability to send media files
+    can_send_polls – ability to send polls
+    can_send_other_messages – ability to send other messages
+    can_add_web_page_previews – ability to pin previews of websites to sent messages
+    can_change_info – ability to change info
+    can_invite_users – ability to invite users
+    can_pin_messages – ability to pin messages
+
+    bot.restrict_chat_member(chat_id, user_id, can_send_messages=False) # example of using 'can_send_messages'
+
+
+rights that can be enabled:
+    can_change_info - ability to change chat info
+    can_post_messages - ability to post messages
+    can_edit_messages - ability to change messages
+    can_delete_messages - ability to delete messages
+    can_invite_users - ability to invite users
+    can_restrict_members - ability to restrict rights of the members
+    can_pin_messages - ability to pin messages
+    can_promote_members - ability to elevate rights of the members
+    is_anonymous - ability to be anonymous
+    can_manage_chat - ability to manage chat
+    can_manage_voice_chats - ability to manage voice chats
+
+    bot.promote_chat_member(chat_id, user_id, is_anonymous=True) # example of using 'is_anonymous'
+
+
+method for leaving from the chat:
+    bot.leave_chat(chat_id)
+
+
+getting data from the chat:
+    bot.get_chat(chat_id)
+    bot.get_chat_administrators(chat_id)
+    bot.get_chat_member_count(chat_id)
+    bot.get_chat_member(chat_id, user_id)
