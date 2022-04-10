@@ -1,0 +1,8 @@
+Just solve the following problems yourself:
+https://www.hackerrank.com/challenges/java-loops-i/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/java-loops/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/java-datatypes/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/java-end-of-file/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/java-int-to-string/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/java-substring/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/java-anagrams/problem?isFullScreen=true
