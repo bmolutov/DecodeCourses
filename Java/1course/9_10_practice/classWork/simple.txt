@@ -1,0 +1,12 @@
+Just solve the following problems yourself:
+
+1) Read n number of integers. Print all of the by the following format (hint: us printf or format() method) (let arr is our array of integers):
+    [Previous and next numbers for arr[i] are (arr[i] - 1) and (arr[i] + 1) respectively]
+    [Previous and next numbers for arr[i+1] are (arr[i+1] - 1) and (arr[i+1] + 1) respectively]
+    ...
+    [Previous and next numbers for arr[n-1] are (arr[n-1] - 1) and (arr[n-1] + 1) respectively]
+
+2) Read an integer and print sum of its digits.
+3) Read an integer. Print its reversed and then doubled value.
+4) Read an integer. Print all divisors of this number in any format you want.
+5) Read the input of integer until you get zero. If you get zero stop the process and print sum of the integers that you've read.

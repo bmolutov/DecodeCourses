@@ -1,0 +1,20 @@
+Just solve the following problems yourself:
+
+1) Read n number of integers and print them in reversed order.
+2) Read n number of integers and print total sum of them.
+3) Read two arrays. Both of them contain n integers. 
+	Print their elements by the following law (let the first array is arr1 and the second is arr2):	
+	(arr1[i], arr2[i])
+      (arr1[i+1], arr2[i+1])
+	...
+	(arr1[n-1], arr2[n-1])
+4) Read two arrays. Both of them contain n String elements.
+	Print their elements by the following law (let the first is array is arr1 and the second is arr2):
+	print arr1[i] if length of arr1[i] is greater than length of arr2[i]
+	print arr1[i+1] if length of arr1[i+1] is greater than length of arr2[i+1]
+	...
+	print arr1[n-1] if length of arr1[n-1] is greater than length of arr2[n-1]
+5) Print n number of long type elements.
+	In the first line print the sum of even numbers.
+	In the next line should be printed sum of odd numbers.
+	
