@@ -5,7 +5,7 @@ Just solve the following problems yourself:
 3) Read two arrays. Both of them contain n integers. 
 	Print their elements by the following law (let the first array is arr1 and the second is arr2):	
 	(arr1[i], arr2[i])
-      (arr1[i+1], arr2[i+1])
+    (arr1[i+1], arr2[i+1])
 	...
 	(arr1[n-1], arr2[n-1])
 4) Read two arrays. Both of them contain n String elements.
