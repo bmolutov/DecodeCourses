@@ -1,0 +1,122 @@
+Java - What is OOP?
+OOP stands for Object-Oriented Programming.
+
+Procedural programming is about writing procedures or methods that perform operations on the data, while object-oriented programming is about creating objects that contain both data and methods.
+
+Object-oriented programming has several advantages over procedural programming:
+
+OOP is faster and easier to execute
+OOP provides a clear structure for the programs
+OOP helps to keep the Java code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug
+OOP makes it possible to create full reusable applications with less code and shorter development time
+Tip: The "Don't Repeat Yourself" (DRY) principle is about reducing the repetition of code. You should extract out the codes that are common for the application, and place them at a single place and reuse them instead of repeating it.
+
+////////////////////////////////////////////////////////////////////////////////////
+
+Java - What are Classes and Objects?
+Classes and objects are the two main aspects of object-oriented programming.
+
+Look at the following illustration to see the difference between class and objects:
+
+1) class Fruit; objects: Apple, Banana, Mango
+2) class Car; objects: Volvo, Audi, Toyota
+
+So, a class is a template for objects, and an object is an instance of a class.
+
+When the individual objects are created, they inherit all the variables and methods from the class.
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Java Classes/Objects
+Java is an object-oriented programming language.
+
+Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake.
+
+A Class is like an object constructor, or a "blueprint" for creating objects.
+
+Create a Class
+To create a class, use the keyword class:
+# see code example "E1.java"
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Create an Object
+In Java, an object is created from a class. We have already created the class named Main, so now we can use this to create objects.
+
+To create an object of Main, specify the class name, followed by the object name, and use the keyword new:
+# see code example "E2.java"
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Multiple Objects
+You can create multiple objects of one class:
+# see code example "E3.java"
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Using Multiple Classes
+You can also create an object of a class and access it in another class. This is often used for better organization of classes (one class has all the attributes and methods, while the other class holds the main() method (code to be executed)).
+
+Remember that the name of the java file should match the class name. In this example, we have created two files in the same directory/folder:
+# see code example "E4.java" (instance of class E2 is used in class E4)
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+Java Class Attributes
+In the previous examples, we used the term "variable" for x in the example. It is actually an attribute of the class. Or you could say that class attributes are variables within a class:
+# see code example "E5.java"
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+Accessing Attributes
+You can access attributes by creating an object of the class, and by using the dot syntax (.):
+
+The following example will create an object of the Main class, with the name myObj. We use the x attribute on the object to print its value:
+# see code example "E6.java"
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+Modify Attributes
+You can also modify attribute values:
+# see code example "E7.java"
+
+Or override existing values:
+# see code example "E8.java"
+
+If you don't want the ability to override existing values, declare the attribute as final:
+# see code example "E9.java"
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+Multiple Objects
+If you create multiple objects of one class, you can change the attribute values in one object, without affecting the attribute values in the other:
+# see code example "E10.java"
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+Multiple Attributes
+You can specify as many attributes as you want:
+# see code example "E11.java"
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+Java Class Methods
+You learned from the Java Methods chapter that methods are declared within a class, and that they are used to perform certain actions:
+# see code example "E12.java"
+
+
+Static vs. Non-Static
+You will often see Java programs that have either static or public attributes and methods.
+
+In the example above, we created a static method, which means that it can be accessed without creating an object of the class, unlike public, which can only be accessed by objects:
+# see code example "E13.java"
+
+
+Access Methods With an Object:
+# see code example "E14.java"
+
+
+Using Multiple Classes:
+# see code examples "E15.java" and "E16.java"
+
+////////////////////////////////////////////////////////////////////////////////////////
