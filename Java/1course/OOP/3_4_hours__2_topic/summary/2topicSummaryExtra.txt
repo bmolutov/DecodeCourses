@@ -29,10 +29,10 @@ The table below shows the primitive type and the equivalent wrapper class:
 Primitive Data Type			Wrapper Class
 byte								Byte
 short								Short
-int								Integer
+int									Integer
 long								Long
 float								Float
-double							Double
+double								Double
 boolean							Boolean
 char								Character
 
