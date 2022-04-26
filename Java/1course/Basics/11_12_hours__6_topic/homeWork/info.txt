@@ -1,5 +1,4 @@
-If problems from complex.txt are not solved, please solve them firstly
+If problems from simple.txt are not solved, please solve them firstly
 and then additional problems will be given for solving.
 
-1) Create a method that gets 2 integers and return the greater one.
-2) Create a method that checks if an integer is even either odd, if even returns true else false.
+If you have finished please go ahead for solving problems from complex.txt.

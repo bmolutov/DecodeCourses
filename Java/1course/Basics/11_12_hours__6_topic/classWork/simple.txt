@@ -1,0 +1,4 @@
+Just solve the following problems:
+
+1) Create a method that gets 2 integers and return the greater one.
+2) Create a method that checks if an integer is even either odd, if even returns true else false.
