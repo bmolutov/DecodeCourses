@@ -1,0 +1,20 @@
+Just solve the following problems yourself:
+
+1) Create a class with 3 attributes of different types. 
+And also create a second class in which you will use the 
+fields of the first. (print to console)
+
+2) Create a class with 3 attributes of different types. 
+And also another class in which there will be one static method, 
+this method will simply display what is passed as arguments when called. 
+Call this method and show me the output.
+
+3) Create a class with a non-static method that takes just one 
+argument of type String and prints it out. Create a second class with 
+a static method that takes two int type arguments and returns their sum, 
+and before returning the sum inside this method, the first class method 
+is called to which the string "Calculator" is passed. A static 
+method must be called on the class it belongs to.
+
+4) Create a class that describes a person. Let this class have 
+at least 5 attributes and 4 methods.

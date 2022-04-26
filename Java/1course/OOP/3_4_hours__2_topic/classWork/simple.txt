@@ -1,0 +1,12 @@
+Just solve the following problems yourself:
+
+1) Create a class with a static method (let the method take one parameter, number n, 
+calculate the product of numbers from 1 to n, and return the result). C
+all this method from another class.
+
+2) Create an abstract class that describes a person (let there be at least 4 attributes 
+and 3 methods). Create a class that describes a student (let this class inherit from a 
+class that describes a person). Override abstract methods and create your own for the 
+student class. Create a third class with an entry point to the program, output all 
+attributes of the student class instance and call all of its methods, 
+show the output to the console.
