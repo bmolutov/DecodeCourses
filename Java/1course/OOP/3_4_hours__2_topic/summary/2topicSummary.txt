@@ -1,0 +1,127 @@
+//////////////////////////////////////////////////////////
+
+Java Constructors
+A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created. It can be used to set initial values for object attributes:
+
+see code example "E1.java"
+
+////////////////////////////////////////////////////////////
+
+Constructor Parameters
+Constructors can also take parameters, which is used to initialize attributes.
+
+The following example adds an int y parameter to the constructor. Inside the constructor we set x to y (x=y). When we call the constructor, we pass a parameter to the constructor (5), which will set the value of x to 5:
+
+see code example "E2.java"
+
+You can have as many parameters as you want:
+
+see code example "E3.java"
+
+//////////////////////////////////////////////////////////////
+
+Java Modifiers
+
+By now, you are quite familiar with the public keyword that appears in almost all of our examples:
+public class Main
+
+/////////////////////////////////////////////////////////////
+
+The public keyword is an access modifier, meaning that it is used to set the access level for classes, attributes, methods and constructors.
+
+We divide modifiers into two groups:
+
+-> Access Modifiers - controls the access level
+-> Non-Access Modifiers - do not control access level, but provides other functionality
+
+///////////////////////////////////////////////////////////////
+
+Access Modifiers
+
+public		-> The code is accessible for all classes
+private		-> The code is only accessible within the declared class
+default		-> The code is only accessible in the same package. This is used when you don't specify a modifier.
+protected	-> The code is accessible in the same package and subclasses.
+
+////////////////////////////////////////////////////////////////
+
+Non-Access Modifiers
+
+For classes, you can use either final or abstract:
+final	     -> The class cannot be inherited by other classes.
+abstract	  -> The class cannot be used to create objects (To access an abstract class, it must be inherited from another class.
+
+For attributes and methods, you can use the one of the following:
+final		->	Attributes and methods cannot be overridden/modified
+static	-> Attributes and methods belongs to the class, rather than an object
+abstract	->	Can only be used in an abstract class, and can only be used on methods. The method does not have a body, for example abstract void run();. The body is provided by the subclass (inherited from).
+(advanced) transient		->	Attributes and methods are skipped when serializing the object containing them
+(advanced) synchronized	->	Methods can only be accessed by one thread at a time
+(advanced) volatile		->	The value of an attribute is not cached thread-locally, and is always read from the "main memory"
+
+///////////////////////////////////////////////////////////////
+
+Final
+If you don't want the ability to override existing attribute values, declare attributes as final:
+
+see code example "E4.java"
+
+///////////////////////////////////////////////////////////////
+
+Static
+A static method means that it can be accessed without creating an object of the class, unlike public:
+
+see code example "E5.java"
+
+///////////////////////////////////////////////////////////////
+
+Abstract
+An abstract method belongs to an abstract class, and it does not have a body. The body is provided by the subclass:
+
+see code example "E6.java"
+
+///////////////////////////////////////////////////////////////
+
+Encapsulation
+The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must:
+
+declare class variables/attributes as private
+provide public get and set methods to access and update the value of a private variable
+
+///////////////////////////////////////////////////////////////
+
+Get and Set
+You learned from the previous chapter that private variables can only be accessed within the same class (an outside class has no access to it). However, it is possible to access them if we provide public get and set methods.
+
+The get method returns the variable value, and the set method sets the value.
+
+Syntax for both is that they start with either get or set, followed by the name of the variable, with the first letter in upper case:
+
+see code example "E7.java"
+
+
+The get method returns the value of the variable name.
+
+The set method takes a parameter (newName) and assigns it to the name variable. The this keyword is used to refer to the current object.
+
+However, as the name variable is declared as private, we cannot access it from outside this class:
+
+see code example "E8.java"
+
+
+Instead, we use the getName() and setName() methods to access and update the variable:
+
+see code example "E9.java"
+
+//////////////////////////////////////////////////////////
+
+Why Encapsulation?
+Better control of class attributes and methods
+Class attributes can be made read-only (if you only use the get method), or write-only (if you only use the set method)
+Flexible: the programmer can change one part of the code without affecting other parts
+Increased security of data
+
+//////////////////////////////////////////////////////////
+
+
+
