@@ -1,0 +1,23 @@
+abstract class Animal {
+	age
+	run() {}
+	sleep() {} 
+	...
+}
+
+class Snake extedns Animal {
+	...
+}
+
+class Tiger extends Animal {
+	age
+	run()
+	sleep()
+}
+
+class Lion extends Animal {
+	age 
+	run()
+	sleep()
+}
+
