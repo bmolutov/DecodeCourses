@@ -1,0 +1,7 @@
+Just solve these problems yourself:
+
+1) Create a class with one attribute and one method in it. Then create another class that extends the first one, let override the attribute and method created in the first class. (do not forget to use @Override annotation)
+
+2) Create a class named Animal with the following attributes: isAnimal = true, age = 10, weight = 5; and with the following mehtods with implementations: run(), sleep(). Create a class Dog that extends Animal class, and override only attributes and methods that are needed to be overwritten. (do not forget to user @Override annotation)
+
+3) Create a method that calculates product of numbers that were passed as arguments into the method, let the method compute product of 2, 3, 4 numbers and return the result and let the method be static. Solve this problem using overloading principle.
