@@ -1,0 +1,33 @@
+Just solve the following problems yourself:
+
+1) Implement class Rectangle with the following methods:
+	setSquare() - returns value of square of the rectangle
+	getWidth() - returns width of the rectangle
+	setWidth(int width) - sets the value of width
+	getHeight() - return height of the rectangle
+	setHeight(int height) - sets the value of height
+
+2) Create class named Cat with any attributes, but the way that the following methods will be usable:
+	setName(String name) - give the game for cat
+	getName() - get the name of cat
+	run() - decreases amount of energy by 100
+	getEnergy() - returns the current amount of energy. Initial value of energy is 1000
+	eat() - increases amount of energy by 200
+	sleep() - increases amount of energy by 100
+
+3) Create class Stack. Fot this class should be available the following methods:
+	push(int value) - put number into the Stack
+	pop() - return the last(top) element of stack and remove it, in case of retrieving maximum or minimum 
+			you should find updated(new) maximum and minimum
+	getMin() - returns the minimum value from stack	
+	getMax() - returns the maximum value from stack
+	size() - returns size of the stack
+	isEmpty() - checks if whether the stack is empty or not
+
+4) Create class Circle, in it you should Implement methods for computing square and perimeter of circle.
+	Let pi = 3.14.
+
+5) Create a class Animal (parent of all animals). Animal class has two children: WildAnimal and HomeAnimal.
+	Class WildAnimal has two children: WaterAnimal and ForestAnimal. Class HomeAnimal has two children:
+	Pets and Livestock. And then create classes Cow and Wolf. All the classes except Cow and Wold should be 
+	abstract. Important note: you can leave all classes without attributes and methods.
