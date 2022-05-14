@@ -1,7 +1,7 @@
 Just solve the following problems yourself:
 
 1) Implement class Rectangle with the following methods:
-	setSquare() - returns value of square of the rectangle
+	getSquare() - returns value of square of the rectangle
 	getWidth() - returns width of the rectangle
 	setWidth(int width) - sets the value of width
 	getHeight() - return height of the rectangle
