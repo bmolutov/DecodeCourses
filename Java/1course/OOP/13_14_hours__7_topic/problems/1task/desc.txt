@@ -1,0 +1,23 @@
+You have the following class:
+enum LogLevel {
+	DEBUG,
+	INFO,
+	WARNING,
+	ERROR
+} 
+
+Your task is to implement method logMessage with the following signature:
+public void logMessage(LogLevel level, String message) {
+	// Your code
+}
+
+When we invoke this method it should print a string in the following format:
+[LEVEL]: MESSAGE
+Where LEVEL - name that put into method of LogLevel, and MESSAGE - message that put.
+
+Output examples:
+logMessage(LogLevel.INFO, "info message")
+// [INFO]: info message
+logMessage(LogLevel.ERROR, "an error occurred")
+// [ERROR]: an error occurred
+

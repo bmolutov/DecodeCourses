@@ -8,9 +8,9 @@
 
 5. Абстракция. Types of Relationship in Java. (Типы отношений классов в Java)
 	
-6. Интерфейсы.
+6. Интерфейсы. (Extra: UML)
 
-7. Enum.
+7. Enum. (Extra: UML)
 	
 8. Generics.
 
