@@ -1,0 +1,59 @@
+######################################################################
+
+-> Phone class 
+1. Crate class Phone, which contains variables: number, model and 
+weight.
+2. Create three instances of this class.
+3. Print values of these variable to the console. 
+4. Add method receiveCall, which has one parameter - name of calling 
+person. 
+   It prints: "{name} is calling...".
+5. Add method getNumber - it returns the phone's number.
+6. Call previous two methods and see result. 
+7. Create constructor without parameters. 
+8. Add constructors such that: first one takes number and model, and 
+the second one takes only number.
+9. Create overloading method receiveCall that takes two parameters: 
+number and name of calling person. 
+10. Create method sendMessage that has variable number of parameters. 
+This method will just print these parameters' values in any order. 
+
+######################################################################
+
+-> Person class 
+1. Create Person class that has attributes: fullName, age.
+2. Add methods move() and talk(), both of them will act similarly: 
+just will print "the person {fullName} talks...".
+3. Add two constructors - Person() and Person(fullName, age).
+4. Create two objects of this class. First one will instanciated by 
+Person(), and the second by Person(fullName, age).
+
+######################################################################
+
+-> Matrix class 
+1. Create Matrix class that stores two dimensional array.
+2. It should have two attributes for storing number of rows and 
+columns. 
+3. In constructor two attributes and the array should be read by 
+Scanner.
+4. Add method print() for printing values of the matrix. 
+
+######################################################################
+
+-> Inheritance. Student and Aspirant.
+1. Create an example of inheritance, implement two classes Student and 
+Aspirant. Aspirant differs from Student by having any scientific work 
+or project.
+2. Student contains attributes: firstName, lastName, group and 
+averageMark.
+3. Create variable of type Student, such that it refers to object of 
+type Aspirant. 
+4. Create method getScholarship() for class Student that returns 
+scholarship amount. If average mark is equal to 5 return 100$ otherwise 
+50%. Override this method in Aspirant class, such that if an aspirant's 
+average mark is equal to 5 return 1000$ otherwise 700$.
+5. Create an array of type Student that stores objects of Student and 
+Aspirant classes. Call method getScholarship() for each element of the 
+array.
+
+######################################################################
