@@ -27,6 +27,14 @@ class Matrix {
 			System.out.println();
 		}
 	}
+	public boolean compare(Matrix another) {
+		// return (this.rows * this.cols > another.rows * another.cols) ? true : false;
+		if(this.rows * this.cols > another.rows * another.cols) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 }
 
 public class C {
