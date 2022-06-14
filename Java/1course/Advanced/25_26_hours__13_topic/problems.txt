@@ -1,7 +1,7 @@
 ######################################################################
 
 -> Phone class 
-1. Crate class Phone, which contains variables: number, model and 
+1. Create class Phone, which contains variables: number, model and 
 weight.
 2. Create three instances of this class.
 3. Print values of these variable to the console. 
@@ -57,3 +57,15 @@ Aspirant classes. Call method getScholarship() for each element of the
 array.
 
 ######################################################################
+
+-> Class that is used for creating objects that store one-dimensional
+array
+1. When constructor is used run Scanner for reading values of the
+array.
+2. Add a method that prints values of the array.
+3. Add a method that is used for comparing two instances of the class,
+shortly speaking it should compare two objects of that class by
+values of arrays that they serve. Rule of comparing choose yourself.
+
+######################################################################
+
